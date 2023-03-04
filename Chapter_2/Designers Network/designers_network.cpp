@@ -21,7 +21,7 @@ int main() {
     } else if (username == "teregiray" && password == "clear") {
       cout << "\nPrivetstvyu Smotryashix!\n";
       success = true;
-    } else if (username == "guest" && password == "guest") {
+    } else if (username == "guest" || password == "guest") {
       cout << "\nWelcome, guest.\n";
       success = true;
     } else {
