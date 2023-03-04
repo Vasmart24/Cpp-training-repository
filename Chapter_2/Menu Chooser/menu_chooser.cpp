@@ -19,7 +19,7 @@ int main() {
 			cout << "You picked Hard. \n";
 		break;
 		default:
-			cout << "You made and illegal choice. \n";
+			cout << "You made an illegal choice. \n";
 }
 return 0;
 }
