@@ -1,0 +1,2 @@
+string_tester.exe
+pause

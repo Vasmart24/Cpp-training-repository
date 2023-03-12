@@ -8,12 +8,12 @@ int main() {
   string phrase = word1 + " " + word2 + word3;
   cout << "The phrase is: " << phrase << "\n\n";
   cout << "The phrase has " << phrase.size() << " characters in it.\n\n";
-  cout << "The character at posititon 0 is: " << phrase[0] << "\n\n";
+  cout << "The character at position 0 is: " << phrase[0] << "\n\n";
   cout << "Changing the character at position 0.\n";
   phrase[0] = 'L';
   cout << "The phrase is now: " << phrase << "\n\n";
   for (unsigned int i = 0; i < phrase.size(); i += 1) {
-    cout << "Character at posititon " << i << " is: " << phrase[i] << endl;
+    cout << "Character at position " << i << " is: " << phrase[i] << endl;
   }
   cout << "\nThe sequence 'Over' begins at location ";
   cout << phrase.find("Over") << endl;
