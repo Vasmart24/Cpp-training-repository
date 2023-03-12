@@ -10,7 +10,7 @@ int main(){
     for (int i = 9; i >= 0; --i){
         cout << i << " ";
     }
-    cout << "\n\nCounting Ьу fives: \n";
+    cout << "\n\nCounting by fives: \n";
     for (int i = 0; i <= 50; i += 5){
         cout << i << " ";
     }
@@ -22,7 +22,7 @@ int main(){
     }
     cout << "\n\nCounting with nested for loops: \n";
     const int ROWS = 5;
-    const int COLUMNS = 2;
+    const int COLUMNS = 3;
     for (int i = 0; i < ROWS; ++i) {
         for (int j = 0; j < COLUMNS; ++j){
             cout << i << "." << j << " ";
