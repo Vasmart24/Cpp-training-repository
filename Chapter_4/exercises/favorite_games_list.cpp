@@ -15,26 +15,28 @@ int main() {
   vector<string>::iterator iter;
   int currCmd;
   string gameName;
+  bool isStrSame;
   do {
     cout << "Please, write your command: ";
     cin >> currCmd;
     switch (currCmd) {
-    case 1:
-      cout << "\nGames List: \n";
-      if (headers.empty()) {
+      case 1:
+        cout << "\nGames List: \n";
+        if (headers.empty()) {
         cout << "The list is empty." << endl;
       } else {
         for (iter = headers.begin(); iter != headers.end(); ++iter) {
           cout << *iter << endl;
         }
       }
-      break;
-    
-    case 2:
+        break;
+
+      case 2:
         cout << "Please, write the header of the game: ";
         cin >> gameName;
-      iter = find(headers.begin(), headers.end(), gameName);
-      if (iter == headers.end()) {
+        iter = find(headers.begin(), headers.end(), gameName);
+      isStrSame = (*iter == gameName);
+      if (isStrSame) {
         cout << "This header is in list already." << endl;
         break;
       }
