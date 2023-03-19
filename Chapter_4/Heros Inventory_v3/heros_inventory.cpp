@@ -32,7 +32,7 @@ int main() {
       cout << *iter << endl;
     }
     cout << "\nYour armor is destroyed in а fierce battle. ";
-    inventory.erase((inventory.begin() + 2));
+    inventory.erase(inventory.begin() + 2);
      cout << "\nYour items: \n";
     for (iter = inventory.begin(); iter != inventory.end(); ++iter) {
       cout << *iter << endl;
