@@ -12,21 +12,25 @@ int main() {
   << "command 'show', show your headers on the screen :)\n"
   << "command 'exit' throw you out from the game.\n\n";
   vector<string> headers;
-  char currCmd;
+  vector<string>::iterator iter;
+  int currCmd;
   string gameName;
   do {
     cout << "Please, write your command: ";
     cin >> currCmd;
-    vector<string>::iterator iter;
     switch (currCmd) {
-    case 'show':
+    case 1:
       cout << "\nGames List: \n";
-      for (iter = headers.begin(); iter != headers.end(); ++iter) {
-        cout << *iter << endl;
+      if (headers.empty()) {
+        cout << "The list is empty." << endl;
+      } else {
+        for (iter = headers.begin(); iter != headers.end(); ++iter) {
+          cout << *iter << endl;
+        }
       }
       break;
     
-    case 'add':
+    case 2:
         cout << "Please, write the header of the game: ";
         cin >> gameName;
       iter = find(headers.begin(), headers.end(), gameName);
@@ -38,7 +42,7 @@ int main() {
       cout << "The header successfully added!";
       break;
 
-    case 'delete':
+    case 3:
       cout << "Please, write the header of the game: ";
       cin >> gameName;
       iter = find(headers.begin(), headers.end(), gameName);
@@ -49,8 +53,12 @@ int main() {
       headers.erase(iter);
       cout << "The header successfully removed!";
       break;
+    
+    default:
+      cout << "There is no such command." << endl;
+      break;
   }
-} while (currCmd != 'exit');
+} while (currCmd != 4);
 
 cout << "Good Bye!" << endl;
 return 0;
