@@ -14,7 +14,7 @@ int main(){
        }
        cout << endl;
     }
-    cout << "\n'X' moves to emty location.\n\n";
+    cout << "\n'X' moves to empty location.\n\n";
     board[1][0] = 'X';
     cout << "Now's the tic-tac-toe board:\n";
     for (int i = 0; i < ROWS; ++i)
