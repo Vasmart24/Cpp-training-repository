@@ -1,0 +1,7 @@
+link necessary libraries
+main func
+  greetings and commands list
+  make vector for game headers
+  ask user for command
+  do commands, while they're not 'exit'
+  farewell
