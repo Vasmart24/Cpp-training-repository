@@ -34,19 +34,19 @@ int main() {
       case 2:
         cout << "Please, write the header of the game: ";
         cin >> gameName;
-        iter = find(headers.begin(), headers.end(), gameName);
-        isStrSame = (*iter == gameName);
-        if (isStrSame) {
-          cout << "This header is in list already." << endl;
-          break;
-        }
+        // iter = find(headers.begin(), headers.end(), gameName);
+        // isStrSame = (*iter == gameName);
+        // if (isStrSame) {
+        //   cout << "This header is in list already." << endl;
+        //   break;
+        // }
         headers.insert(headers.end(), gameName);
         cout << "The header successfully added!\n";
         break;
 
     case 3:
     if (headers.empty()) {
-    cout << "You can't delete because the list is empty." << endl;
+    cout << "The list is empty." << endl;
     break;
     }
       cout << "Please, write the header of the game: ";
@@ -62,9 +62,9 @@ int main() {
     
     default:
     cout << "There is no such command." << endl;
-    // cin.clear();
-    // // cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    break;
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+     break;
   }
 } while (currCmd != 4);
 
