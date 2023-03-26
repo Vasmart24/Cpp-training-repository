@@ -47,7 +47,9 @@ int main() {
     case 3:
     if (headers.empty()) {
     cout << "You can't delete because the list is empty." << endl;
-    break;Warning: the ECDSA host key for 'github.com' differs from the keywrite the header of the game: ";
+    break;
+    }
+      cout << "Please, write the header of the game: ";
       cin >> gameName;
       iter = find(headers.begin(), headers.end(), gameName);
       if (iter == headers.end()) {
