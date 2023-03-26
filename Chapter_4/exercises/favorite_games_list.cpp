@@ -45,13 +45,17 @@ int main() {
         break;
 
     case 3:
+    if (headers.empty()) {
+    cout << "The list is empty." << endl;
+    break;
+    }
       cout << "Please, write the header of the game: ";
       cin >> gameName;
-      // iter = find(headers.begin(), headers.end(), gameName);
-      // if (iter == headers.end()) {
-      //   cout << "This header doesn't exist in the list." << endl;
-      //   break;
-      // }
+      iter = find(headers.begin(), headers.end(), gameName);
+      if (iter == headers.end()) {
+        cout << "This header doesn't exist in the list." << endl;
+        break;
+      }
       headers.erase(iter);
       cout << "The header successfully removed!\n";
       break;
