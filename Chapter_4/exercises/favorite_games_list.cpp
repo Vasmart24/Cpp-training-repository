@@ -34,15 +34,14 @@ int main() {
       case 2:
         cout << "Please, write the header of the game: ";
         cin >> gameName;
-        // iter = find(headers.begin(), headers.end(), gameName);
-        // isStrSame = (*iter == gameName);
-        // if (isStrSame) {
-        //   cout << "This header is in list already." << endl;
-        //   break;
-        // }
-        headers.insert(headers.end(), gameName);
+        iter = find(headers.begin(), headers.end(), gameName);
+        if (iter != headers.end()) {
+        cout << "This header is already in the list." << endl;
+       break;
+       }
+        headers.push_back(gameName);
         cout << "The header successfully added!\n";
-        break;
+      break;
 
     case 3:
     if (headers.empty()) {
