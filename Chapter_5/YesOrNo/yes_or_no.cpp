@@ -19,7 +19,7 @@ char askYesNo1() {
   return response1;
 }
 char askYesNo2(string question) {
-  char response1;
+  char response2;
   do {
     cout << question << " (y/n): ";
     cin >> response2;
