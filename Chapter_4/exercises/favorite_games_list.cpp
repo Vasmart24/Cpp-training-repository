@@ -58,7 +58,7 @@ int main() {
       headers.erase(iter);
       cout << "The header successfully removed!\n";
       break;
-    
+
     default:
     cout << "There is no such command." << endl;
     cin.clear();

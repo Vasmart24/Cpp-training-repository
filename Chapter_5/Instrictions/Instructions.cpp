@@ -7,5 +7,6 @@ int main() {
   return 0;
 }
 void instructions() {
-  cout << "Welcome to the most fun you've ever had with text!"
+  cout << "Welcome to the most fun you've ever had with text!\n\n"
+  << "Here's how to play the game...\n";
 }
