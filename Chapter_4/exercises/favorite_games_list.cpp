@@ -60,9 +60,11 @@ int main() {
       cout << "The header successfully removed!\n";
       break;
     
-    // default:
-    //   cout << "There is no such command." << endl;
-    //   break;
+    default:
+    cout << "There is no such command." << endl;
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+     break;
   }
 } while (currCmd != 4);
 
