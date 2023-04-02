@@ -1,0 +1,7 @@
+# ninja log v5
+836	1046	7009424664644165	exercises.exe	fc3f5043bfe2b290
+5	342	7009442449200725	build.ninja	a7670139a9c50ab2
+6	836	7009424662663124	CMakeFiles/exercises.dir/favorite_games_list.cpp.obj	1910bf7024a40c69
+1	402	7009442449200725	build.ninja	a7670139a9c50ab2
+4	957	7009442459597414	CMakeFiles/exercises.dir/favorite_games_list.cpp.obj	1910bf7024a40c69
+958	1147	7009442461438129	exercises.exe	fc3f5043bfe2b290
