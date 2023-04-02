@@ -1,0 +1,3 @@
+F:/codes(C++)/chapter_6/Swap/cmake-build-debug/CMakeFiles/Swap.dir
+F:/codes(C++)/chapter_6/Swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/codes(C++)/chapter_6/Swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
