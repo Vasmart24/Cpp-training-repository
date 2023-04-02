@@ -1,0 +1,6 @@
+# ninja log v5
+5	884	7021443944229912	CMakeFiles/Inventory_Referencer.dir/main.cpp.obj	5a3481b4064091ee
+884	1098	7021443946263994	Inventory_Referencer.exe	7e8bd114d360a0e
+6	373	7021444763433133	build.ninja	8467a91046c63cfd
+1	779	7021444772511204	CMakeFiles/Inventory_Referencer.dir/inventory_referencer.cpp.obj	29294f0bb61150b1
+780	950	7021444774192076	Inventory_Referencer.exe	9c99c9997236a755
