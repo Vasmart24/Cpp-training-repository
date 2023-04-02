@@ -1,0 +1,22 @@
+# ninja log v5
+1	1000	7021377818349977	CMakeFiles/Inventory_Displayer.dir/main.cpp.obj	c9e3e907e2cee215
+1003	1157	7021377819851791	Inventory_Displayer.exe	b7af6f6f352ba9e3
+7	357	7021383681863810	build.ninja	8043d719f8e4603f
+0	1452	7021383697782203	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1453	1632	7021383699528124	Inventory_Displayer.exe	2ee78bc9f2dc2092
+8	1320	7021386011008302	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1321	1542	7021386012891285	Inventory_Displayer.exe	2ee78bc9f2dc2092
+6	1367	7021386275273727	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1367	1555	7021386277114484	Inventory_Displayer.exe	2ee78bc9f2dc2092
+7	1461	7021387021461726	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1461	1632	7021387023117464	Inventory_Displayer.exe	2ee78bc9f2dc2092
+8	1352	7021387379100647	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1352	1527	7021387380803396	Inventory_Displayer.exe	2ee78bc9f2dc2092
+7	1485	7021387680125618	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1485	1659	7021387681791575	Inventory_Displayer.exe	2ee78bc9f2dc2092
+5	1379	7021388460579393	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1379	1584	7021388462530222	Inventory_Displayer.exe	2ee78bc9f2dc2092
+6	1307	7021388796365852	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1307	1489	7021388798100803	Inventory_Displayer.exe	2ee78bc9f2dc2092
+7	1286	7021389145849105	CMakeFiles/Inventory_Displayer.dir/inventory_displayer.cpp.obj	5c2b1bef2b6e0465
+1286	1467	7021389147584680	Inventory_Displayer.exe	2ee78bc9f2dc2092
